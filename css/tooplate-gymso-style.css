@@ -725,7 +725,7 @@ body{
 #popOne, #popTwo, #popThree{
     position: absolute;
     left: 50%;
-    top:110%;
+    top:111%;
     transform: translateX(-50%);
     background-color: rgb(128, 127, 127);
     width: 650px;
