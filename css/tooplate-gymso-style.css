@@ -668,9 +668,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
     
 }
 body{
-    background-image: url(https://h.top4top.io/p_2145r1o631.jpg) ;
+    background-image: url(https://a.top4top.io/p_2145gi9ph1.jpg) ;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom left;
 }    
 .content{
    padding:20px;
@@ -711,16 +711,23 @@ body{
     display: flex;
     justify-content: center;
 }
-.btn3{
-    text-align: center;
-    width: 120px;
-    height: 90px;
-    border-radius: 10px;
+.btn3 {
     background: var(--gray-color);
-    color: var(--dark-color);
+    text-align: center;
+    border-radius: 5px;
     padding: 20px 15px;
-    float: left;
+    color: var(--dark-color);
+    transition: 0.6s; 
+    margin-top: 10px;
     margin: 10px;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #fff;
+    color:var(--primary-color);
+}
+.btn3:focus {
+    box-shadow: none;
 }
 #popOne, #popTwo, #popThree{
     position: absolute;
@@ -757,6 +764,11 @@ body{
     right: 10px;
     cursor: pointer;
     text-align: center;
+    transition: 0.6s;
+}
+.tombol-terimakasih:hover{
+    background-color: #fff;
+    color:var(--primary-color);
 }
 .player{
     position: relative;
